@@ -1,0 +1,33 @@
+.flex-container {
+  display:flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  padding: 40px;
+  
+  
+}
+
+.flex-item{
+  width: 30%;
+  background-color: rgb(255, 140, 0);
+  border: 2px solid #f6540925;
+  border-radius: 10px;
+  font-family: Roboto ;
+  font-size: 8px;
+  text-align: center;
+  padding: 2px;
+}
+
+.flex-item p{
+  font-style: italic;
+  font-weight: 700;
+}
+
+.flex-imagem{
+  width: 80px;
+    
+}
+
+.flex-container :hover{
+  background-image: linear-gradient(360deg, rgba(241, 245, 241, 0.159), #fcf9f900 );
+}
